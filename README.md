@@ -80,6 +80,10 @@ Potential enhancements:
 
 ---
 
+## Application Screenshot
+
+![Task Tracker](assets/screenshot.png)
+
 ## Author
 
 Colleen Cummings
