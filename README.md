@@ -14,7 +14,19 @@ This project demonstrates core front-end engineering skills including:
 • UI filtering logic  
 
 ---
+## Engineering Considerations
 
+Key design decisions:
+
+State isolation improves maintainability.
+
+Immutable updates prevent rendering bugs.
+
+Local storage chosen instead of backend due to project scope.
+
+Filtering handled through derived state instead of modifying original data.
+
+Component simplicity prioritized over premature optimization.
 ## Features
 
 • Add tasks  
@@ -66,6 +78,17 @@ http://localhost:5173
 
 
 ---
+## Project Structure
+src/
+  App.jsx
+  App.css
+  main.jsx
+
+assets/
+  screenshot.png
+
+README.md
+package.json
 
 ## Future Improvements
 
